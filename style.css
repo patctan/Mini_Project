@@ -1,0 +1,57 @@
+* {
+    font:bold;
+    font-family:'Times New Roman'
+}
+
+header {
+
+    position:fixed;
+    top: 0;
+    background-color:forestgreen;
+    width:100%;
+    text-align:center;
+    
+}
+
+.link {
+    display:inline;
+    list-style-type: none;
+    font-size:30px;
+}
+
+#FirstLink {
+    background-color: lightblue;
+}
+
+#SecondLink {
+    background-color: lightgoldenrodyellow;
+}
+
+#ThirdLink {
+    background-color:lightcoral;
+}
+
+body {
+
+    background-color:pink
+}
+
+figure {
+    display:inline-block
+}
+
+input[type=text], select, textarea {
+    width:100%;
+    padding:10px;
+    border: 1px solid darkgray;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+}
+
+.container {
+    border-radius:10px;
+    background-color:lightgray;
+    padding:20px;
+}
