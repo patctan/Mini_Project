@@ -1,8 +1,10 @@
-* {
+*/*all font will be bold and in Times New Roman*/ 
+{
     font:bold;
     font-family:'Times New Roman'
 }
 
+/*The header will stay fixed on the screen, even when scrolling*/
 header {
 
     position:fixed;
@@ -13,12 +15,14 @@ header {
     
 }
 
+/*The links displayed will be inline instead of block*/
 .link {
     display:inline;
     list-style-type: none;
     font-size:30px;
 }
 
+/*Each link has different colors*/
 #FirstLink {
     background-color: lightblue;
 }
@@ -31,15 +35,18 @@ header {
     background-color:lightcoral;
 }
 
+/*The background of the website will be pink*/
 body {
 
     background-color:pink
 }
 
+/*The images will be displayed side-by-side instead of in a column*/
 figure {
     display:inline-block
 }
 
+/*Determines the parameters of the Contact Form*/
 input[type=text], select, textarea {
     width:100%;
     padding:10px;
@@ -50,6 +57,7 @@ input[type=text], select, textarea {
     margin-bottom:16px;
 }
 
+/*Determines the parameters of the box surrounding the Contact Form*/
 .container {
     border-radius:10px;
     background-color:lightgray;
